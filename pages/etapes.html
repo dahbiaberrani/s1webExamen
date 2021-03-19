@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0087)https://mi-phpmut.univ-tlse2.fr/~nathalie.hernandez/L2/S1/semaine10/correction/TP7.html -->
+<html lang="fr">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="icon" href="../images/SFTP_favicon.png" type="image/png">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../style/style.css" media="all">
+
+        <title>Mise en ligne d'un site Web</title>
+    </head>
+
+    <body>
+        <!-- En-tête de la page -->
+        <header id="header">
+            <nav>
+                <ul >
+                    <li><a href="../index.html">Accueil</a> </li>
+                    <li><a href="./etapes.html" class="actif">Etapes</a> </li>
+                    <li><a href="./logiciel.html">Logiciel utile</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+            <!-- Contenu de la page -->
+        <section id="epates" class="bloketapes">
+            <h1>Etapes de la mise en ligne d'un site Web</h1>
+                
+                <h2>Introduction:</h2>
+                <article>
+                       
+                    <h3> Serveur web distant:</h3>
+                    <p>
+                        Une fois votre site web créé, vous devez le publier en chargeant les fichiers sur un serveur distant. 
+                        C'est sur ce dernier que vos fichiers sont stockés. Un serveur web est, soit un ordinateur qui répond à des requêtes du World Wide Web (www) sur un réseau public (Internet) ou privé (intranet) en utilisant principalement le protocole <abbr title="HyperText Transfer Protocol">HTTP</abbr> comme illustré dans la figure 1 ci-dessous. Un serveur informatique peut être utilisé à la fois pour servir des ressources du Web et pour faire fonctionner en parallèle d'autres services liés comme l'envoi d'e-mails, l'émission de flux streaming, le stockage de données via des bases de données, et nottament le transfert de fichiers par <abbr title="File Transfer Protocol">FTP</abbr>, etc...
+                        pour plus d'information sur le protocole <abbr title="HyperText Transfer Protocol">HTTP</abbr> cliquez 
+                        <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank">ici</a>.
+                    </p>
+                    <figure>
+                        <img src="../images/client_serveur_HTTP.png" alt="image client serveur HTTP">
+                        <figcaption>Figure 1: Modèle Client-Serveur du protocole HTTP </figcaption>
+                    </figure>
+                    
+                </article>
+
+                <article>
+                    <h3> Le protocole FTP:</h3>
+
+                    <p>
+                        File Transfer Protocol (protocole de transfert de fichier), ou <abbr title="File Transfer Protocol">FTP</abbr>, est un protocole de communication destiné au partage de fichiers sur un réseau TCP/IP. Il permet, depuis un ordinateur, de copier des fichiers vers un autre ordinateur, ou encore de supprimer ou de modifier des fichiers sur cet ordinateur. Ce mécanisme de copie est souvent utilisé pour alimenter un site web hébergé sur un serveur distant <abbr title="HyperText Transfer Protocol">HTTP</abbr>.La variante de <abbr title="File Transfer Protocol">FTP</abbr> protégée par les protocole <abbr title="secure shell">SSH</abbr>  s'appelle <abbr title="Secure File Transfer Protocol">SFTP</abbr>.<abbr title="File Transfer Protocol">FTP</abbr> obéit à un modèle client-serveur comme illustré dans la figure 2 ci-dessous, c'est-à-dire qu'une des deux parties, le client, envoie des requêtes auxquelles réagit l'autre, appelé serveur. En pratique, on utilise un logiciel client <abbr title="File Transfer Protocol">FTP</abbr> possédant une interface graphique (ou en ligne de commande) pour faire ces transferts de fichiers. Pour plus d'informations sur le protocole FTP cliquez 
+                        <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank">ici</a>.
+                    </p>
+                    <figure>
+                        <img src="../images/client_serveur_SFTP.png" alt="image client serveur SFTP">
+                        <figcaption>Figure 2: Modèle Client-Serveur du protocole SFTP </figcaption>
+                    </figure>
+                </article>
+
+                
+                <article>
+                    <h2>Etapes pour publier un site internet:</h2>
+                    <ul>
+                        <li>
+                            Etape 1:
+                        </li>
+                    </ul>
+                    <p> 
+                        Assurer d'avoir l'URL <abbr title="File Transfer Protocol">FTP</abbr> de votre serveur distant, par exemple celui de l'université Toulouse 2 est mi-phpmut.univ-tlse2.fr. Assurez vous aussi d'avoir votre identifiant et votre mot de passe, par exemple pour votre serveur de  l'université Toulouse 2 c'est le même compte que celui utilisé pour se connecter aux ordinateurs de l'université.</p>
+
+                    <ul>
+                        <li>
+                            Etape 2: 
+                        </li>
+                    </ul>
+                    <p>
+                        Choisissez un client <abbr title="File Transfer Protocol">FTP</abbr> et téléchargez le sur votre pc. Vous trouvez une liste comparative des logiciels clients <abbr title="File Transfer Protocol">FTP</abbr> en cliquant <a href="https://www.ionos.fr/digitalguide/hebergement/aspects-techniques/comparaison-de-clients-ftp-dexcellence-pour-lhebergement-dun-site-web/" target="_blank">ici</a>.
+                    </p>
+                    
+
+                    <ul>
+                        <li>
+                            Etape 3: 
+                        </li>
+                    </ul>
+                    <p>
+                        Installez le logiciel client <abbr title="File Transfer Protocol">FTP</abbr> que vous venez de télécharger en suivant les instructions pour l'installation.
+                    </p>
+
+                    <ul>
+                        <li>
+                            Etape 4: 
+                        </li>
+                    </ul>
+                    <p>
+                        Lancer le client <abbr title="File Transfer Protocol">FTP</abbr> que vous venez d'installer et assurez vous que votre ordinateur est connecté à internet.
+                    </p>
+
+                    <ul>
+                        <li>
+                            Etape 5: 
+                        </li>
+                    </ul>
+                    <p>
+                        En utilisant le logien client <abbr title="File Transfer Protocol">FTP</abbr> connectez vous a votre serveur <abbr title="File Transfer Protocol">FTP</abbr> distant à l'aide de votre identifiant et mot de passe. La manière de se connecter est différente selon le logiciel que vous avez choisi. Pour FileZilla veuillez consulter notre onglet Logiciel utile accessible via notre menu ou  en quliquant 
+                        <a href="./logiciel.html">ici</a>.
+                    </p>
+
+                    <ul>
+                        <li>
+                            Etape 6: 
+                        </li>
+                    </ul>
+                    <p>
+                       Vous pouvez maintenant commencer à transferer les fichiers vers votre serveur. en général on peut faire ça avec un glisser-coller (drag and drope) mais celà peut varier selon le logiciel client <abbr title="File Transfer Protocol">FTP</abbr> que vous avez choisi. Pour FileZilla veuillez consulter notre onglet Logiciel utile accessible via notre menu ou  en quliquant 
+                        <a href="./logiciel.html">ici</a>. 
+                    </p>
+                    
+                </article>              
+        
+        </section>
+
+    <!-- Bas de la page -->
+        <footer>
+            <p>site réalisé par DAHBIA BERRANI</p>
+        </footer>
+
+
+    </body>
+
+</html>
